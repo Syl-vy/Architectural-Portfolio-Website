@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+body {background-color: rgb(47, 42, 42);}
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none; }
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;}
+a:hover { 
+    text-decoration: none; }
+a:active { 
+    text-decoration: none; }
+.bottomleft{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+}
+h1 {
+    left: 550px;
+    content: '';
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    text-decoration-line:underline;
+    text-decoration-color: rgb(236, 189, 32);
+}
+.A {
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    content: '';
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    color: white; 
+}
+.A::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(236, 189, 32);;
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    transition: 0.5s;
+}
+.A:hover::after{
+    width: 100%;
+} 
+.B{
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    content: '';
+    position: absolute;
+    top: 50px;
+    font-size: 20px;
+    color: white; 
+}
+
+.B::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(236, 189, 32);;
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    transition: 0.5s;
+}
+.B:hover::after{
+    width: 100%;
+}
